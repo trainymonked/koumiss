@@ -5,6 +5,7 @@
     color: #000;
     font-size: 100%;
     font-family: 'Courier New', Courier, monospace;
+    user-select: none;
 }
 
 .container {
@@ -35,7 +36,7 @@ header {
 }
 
 .banner {
-    background: url('/billie.png'), #cf9066;
+    background: url('./billie.png'), #cf9066;
     background-position: 25% 100%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -45,7 +46,7 @@ header {
     .content {
         position: absolute;
         left: 50%;
-        top: 30%;
+        top: 27.5%;
         max-width: 500px;
         display: flex;
         flex-direction: column;
@@ -86,7 +87,7 @@ header {
 }
 
 .perks {
-    background: url('/drink.png'), #eee;
+    background: url('./drink.png'), #eee;
     background-position: 75%;
     background-repeat: no-repeat;
     background-size: 15%;
